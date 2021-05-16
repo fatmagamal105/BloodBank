@@ -1,0 +1,1103 @@
+body{
+    font-family: "Source Sans Pro", sans-serif;
+    color: #282828;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h6 {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.header-content{
+    color:white;
+    text-align: center;
+}
+
+/**/
+h1 {
+    font-size: 6.25rem;
+}
+#h2 {
+    font-size: 2.375rem;
+}
+
+/* اخر تعديل علي صفحه الكونديشن */
+/* start section by_alaa*/
+.by_alaa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.by_alaa .img{
+    width: 50%;
+    height: 400px;
+
+}
+.by_alaa .h2{
+    color: #dc3545;
+    margin: 10px 0 12px 0;
+}
+
+.by_alaa .text{
+    justify-content: center;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 1px 2px rgb(0 ,0 ,0 ,10%);
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px #F3F3F3  solid;
+    max-width: 70%;
+}
+
+.by_alaa .alaa{
+    display: inline-block;
+    font-family:inherit;
+    font-size: 3;
+    font-weight: normal;
+    color: #808080;
+}
+
+/* start media query of condition page */
+@media (max-width:992px) and (min-width:768px){
+    .by_alaa .img{
+        width: 75%;
+        height: 300px;
+
+    }
+}
+
+@media (max-width:768px){
+    .by_alaa .img{
+        width: 100%;
+        height: 300px;
+
+    }
+    .by_alaa .h2{
+        color: #dc3545;
+        margin: 10 0 12px 0;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+ /*  End media query of condition page */
+
+/* end section by_alaa  */
+
+/*  نهاية اخر تعديل علي صفحه الكونديشن */
+
+
+/*start .by-alaa-why صفحة لماذا*/
+.by-alaa-why{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.by-alaa-why .img{
+    width: 50%;
+    height: 400px;
+}
+.by-alaa-why .h2{
+    color: #dc3545;
+    margin: 10 0 12px 0;
+    font-size: 40px;
+    text-align: center;
+}
+.by-alaa-why .text{
+    justify-content: center;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px #F3F3F3  solid;
+    max-width: 70%;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.by-alaa-why .alaa{
+    display: inline-block;
+    font-family:inherit;
+    font-size: 3;
+    font-weight: normal;
+    color:#808080;
+
+}
+/* media query for h2 in alaa section */
+@media (max-width:768px){
+    .by-alaa-why .img{
+        width: 100%;
+        height: 300px;
+    }
+
+    .by-alaa-why .h2{
+        color: #dc3545;
+        margin: 10 0 12px 0;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+   /*end of media query in why page*/
+
+/*end .by-alaa-why صفحة لماذا*/
+
+/*start section news by sara  */
+/*body class كلاس اسمه بدي */
+.body{
+    background-color: #f5f5f5;
+}
+
+h2{
+    font-size: 2.375rem;
+    color: #1f1f1f;
+}
+
+h4 {
+    font-size: 1.125rem;
+}
+
+h6 {
+    font-weight: 500;
+    font-size: 0.813rem;
+
+}
+
+/*header_news في صفحة النيوز */
+.header_news{
+    height: 60vh;
+    background-image: url('../imge/aya1.jpg');
+    background-size:100% 100%;
+}
+.header-content h4
+{
+    font-size: 2.375rem;
+}
+
+@media all and (max-width: 575.98px) {
+    .header_news .header-content h4{
+        font-size: 30px;
+       padding: 0;
+       margin: 0;
+    }
+    .corona{
+    width: 50% !important;
+    z-index: 9;
+    font-size: 12px;
+    }}
+
+@media all and (min-width: 576px) and (max-width: 767.98px) {
+        .header_news .header-content h4{
+            font-size: 30px;
+        }
+        /* h4 have class corona */
+        .corona{
+            width: 50% !important;
+            z-index: 9;
+            font-size: 12px;
+
+            }
+        }
+ @media all and (min-width: 768px) and (max-width: 991.98px) {
+
+    .header_news .header-content h4{
+        font-size: 40px;
+
+    }
+    .corona{
+        width: 50% !important;
+        z-index: 9;
+        font-size: 12px;
+
+        }
+    }
+@media all and (min-width: 992px) and (max-width: 1199.98px) {
+
+    .header_news .header-content h4{
+        font-size: 50px;
+
+    }
+    .corona{
+        width: 50% !important;
+        z-index: 9;
+        font-size: 12px;
+
+        }
+    }
+
+.header_news h4
+{
+    color: #ebeff1;
+    font-size: 30px;
+    position: relative;
+    top: 220px;
+}
+/*about*/
+.about-img1 img{
+    height: 55vh;
+}
+.about-us span{
+    color: rgb(255, 0, 149);
+}
+
+/*portfolio2*/
+.our-PORTFOLIO h2
+{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+.our-PORTFOLIO p
+{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4e4e4e;
+    position: relative;
+}
+.our-PORTFOLIO p::after
+{
+content: '';
+position: absolute;
+width: 40px;
+height: 5px;
+background-color:#0078ff ;
+top:150%;
+left: 48%;
+}
+.portfolio-img img
+{ width: 100%; transition: 1s; -webkit-transition: 1s; -moz-transition: 1s; -ms-transition: 1s; -o-transition: 1s;
+}
+.portfolio-img
+{
+    overflow:hidden;
+}
+.portfolio-img img:hover
+{ transform:scale(1.3); -webkit-transform:scale(1.3); -moz-transform:scale(1.3); -ms-transform:scale(1.3); -o-transform:scale(1.3);
+}
+.ready:hover a {/*sara اللينكread more */
+    color:#ff305b ;
+}
+.work-content
+{
+    padding: 2rem 3% 1rem 4%;
+    background-color: #fff;
+}
+.w-title{
+    font-size: 1.2rem;
+}
+.w-more
+{
+    color: #4e4e4e;
+    font-size: .8rem;
+}
+.w-catogry
+{
+    color: #0078ff;
+}
+.icon-plus i{
+    color: #0078ff;
+    font-size: .8rem;
+}
+.icon-plus
+{ width: 30px; height: 30px;
+    border-radius: 50%;
+    border: solid 1px #0078ff;
+}
+/*end section news by sara  */
+
+/* start section about-us by sara */
+.about-img{
+    position:relative;
+    left: 38%;
+}
+.contact-us h2{
+    margin-top:50px;
+    margin-bottom:20px;
+    font-size:40px;
+    font-weight:800;
+    line-height:30px;
+    color:#dc3545;
+    text-align: center;
+}
+.priv-form{
+    display: flex;
+    justify-content: center;
+}
+.name,.email{
+    margin:10px 15px;
+    padding: 7px 0px;
+    width: 30%;
+    box-shadow: 2px 2px 5px #ccc;
+}
+.puplic-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.message{
+    margin:10px 15px;
+    padding: 7px 0px;
+   width: 30%;
+   box-shadow: 2px 2px 5px #ccc;
+}
+.form-contact button {
+    background: #dc3545;
+    color: white;
+    border: 1px solid #dc3545;
+    padding: 25px;
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.rounded:hover{
+    background: #EE0F48;
+    text-decoration: none;
+}
+
+.corona{
+    width: 30%;
+    background-color: rgb(139, 86, 192);
+    z-index: 9;
+}
+
+/* end section about-us by sara */
+
+/* start section contact us by sara */
+.about-img{
+    position:relative;
+    left: 38%;
+}
+.contact-us h2{
+    margin-top:50px;
+    margin-bottom:20px;
+    font-size:40px;
+    font-weight:800;
+    line-height:30px;
+    color:#dc3545;
+    text-align: center;
+}
+.priv-form{
+    display: flex;
+    justify-content: center;
+}
+.name,.email{
+    margin:10px 15px;
+    padding: 7px 0px;
+    width: 30%;
+    box-shadow: 2px 2px 5px #ccc;
+}
+.puplic-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.message{
+    margin:10px 15px;
+    padding: 7px 0px;
+   width: 30%;
+   box-shadow: 2px 2px 5px #ccc;
+}
+.form-contact button {
+    background: #dc3545;
+    color: white;
+    border: 1px solid #dc3545;
+    padding: 25px;
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.rounded:hover{
+    background: #EE0F48;
+    text-decoration: none;
+}
+/* end section contact-us by sara */
+
+/* start nav */
+nav{
+background-color: #fff;
+width: 100%;
+z-index: 9;
+
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: rgba(0,0,0,.5);
+    padding: 15px 12px !important;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: all .3s ease;
+    line-height: 20px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+
+}
+.custom-toggler.navbar-toggler {
+    border-color: rgba(0,0,0,.1);
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.accc{
+    color: black !important;
+}
+.navbar-brand img{
+width: 45%;
+
+}
+.navbar-dark .navbar-nav .active .nav-link
+{
+color:#e65f78!important;
+}
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    color: #EE0F48;
+
+}
+
+.header{
+    height: 85vh;
+    background-image: url(../imge/as/slide-03.jpg);
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.center {
+    margin-left: 20px;
+}
+
+.rounded {
+    background: #dc3545;
+            color: white;
+            border: 1px solid #dc3545;
+            padding: 10px;
+            margin-top: 40px;
+            width: 200px;
+            margin-left: 10px;
+            font-weight: 600;
+            font-size: 18px;
+        }
+button:hover{
+    background: #EE0F48;
+    text-decoration: none;
+}
+
+#find-donor-form {
+    flex-direction: row;
+        background-color: rgba(245, 176, 193, 0.36);
+
+}
+
+.content > .panel {
+    max-width: 70%;
+}
+/*end nav  */
+
+/* start form (New Doner) */
+button, .button {
+    background: #dc3545;
+    color: white;
+    border: 1px solid #dc3545;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 4px;
+    height: 35px;
+    outline: none;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-form-fatma{
+    background-color: rgba(245, 176, 193, 0.36);
+    margin-top: 135px;
+
+}
+
+.but{
+    padding-left: 280px;
+}
+@media all and (max-width: 575.98px) {
+    .but{
+    padding-left: 280px;
+    }}
+
+/* end form (New Doner) */
+
+/*start section search  */
+.search {
+    background: #dc3545;
+    color: white;
+    border: 1px solid #dc3545;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 4px;
+    height: 35px;
+    outline: none;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tittel{
+    color: #dc3545;
+    margin: 0 0 12px 0;
+}
+.panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px #F3F3F3 solid;
+}
+
+input, select, textarea {
+    border: 1px solid #D0D0D0;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin: 4px;
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 35px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+footer a{
+    color: bisque;
+}
+/*end section search  */
+
+/*start section search table */
+#donors-table {
+    margin-top: 32px;
+    width: 60%;
+}
+table {
+    font-size: 0.9em;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+}
+* {
+    font-family: "Aller Greta", sans-serif;
+    box-sizing: border-box;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+table * {
+    position: relative;
+}
+* {
+    font-family: "Aller Greta", sans-serif;
+    box-sizing: border-box;
+}
+user agent stylesheet
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr:first-child {
+    background:#dc3545;
+}
+table tbody tr {
+    height: 50px;
+}
+tbody tr {
+    color: #808080;
+    line-height: 1.2;
+    font-weight: unset;
+}
+table * {
+    position: relative;
+}
+* {
+    font-family: "Aller Greta", sans-serif;
+    box-sizing: border-box;
+}
+user agent stylesheet
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+table {
+    font-size: 0.9em;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+}
+user agent stylesheet
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+table td, table th {
+    text-align: left;
+}
+table th {
+    color: white;
+    padding: 12px 20px;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+tbody tr {
+    color: #808080;
+    line-height: 1.2;
+    font-weight: unset;
+}
+tbody tr:nth-child(even) {
+    background-color: rgba(245, 245, 245, 0.7);
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+table tbody tr {
+    height: 50px;
+}
+
+tbody tr {
+    color: #808080;
+    line-height: 1.2;
+    font-weight: unset;
+}
+table tr > td:first-child {
+    border-left-width: 1px;
+}
+
+table td, table th {
+    text-align: left;
+}
+table td {
+    padding: 8px 20px;
+    border: 0 #F3F3F3 solid;
+}
+#pagination-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+button.light, #pagination-buttons button:not(.active), .button.light {
+    background: linear-gradient(
+10deg
+, #F7F7F7 0%, #FEFEFE 100%);
+    border: 1px solid #D0D0D0;
+    border-radius: 6px;
+    color: #474747;
+}
+#pagination-buttons > div {
+    display: flex;
+}
+#pagination-buttons button {
+    padding: 0;
+    min-width: 32px;
+    height: 32px;
+}
+
+button, .button {
+    background: #dc3545;
+    color: white;
+    border: 1px solid #dc3545;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 4px;
+    height: 35px;
+    outline: none;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pagination-buttons > span {
+    font-size: 0.8em;
+    color: #474747;
+}
+/*end section search table */
+
+/* start footer */
+.footer-copyright {
+    position: relative;
+    clear: both;
+    background-color:#dc3545;
+    padding-top: 30px;
+    z-index: 1;
+    padding-bottom: 30px;
+}
+
+.footer-social a{
+color: #fff;
+font-size: 18px;
+}
+.page a{
+    color: #fff;
+    font-size: 18px;
+    margin: 4px;
+    }
+    .footer-copyright a:hover{
+    color: #130a0a;
+}
+ .copyright {
+    clear: both;
+    margin: 0;
+    line-height: 16px;
+    letter-spacing: .5px;
+    text-align: right;
+}
+ .copyright a{
+    color: #fff;
+}
+ .copyright a:hover{
+    color: #130a0a;
+}
+/* end footer */
+
+/*  start counter section */
+.counter_background{
+    background: rgb(251 226 233);
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.counters{
+    margin-left:70px ;
+}
+
+.circle{
+    display:flex;
+    justify-content:center;
+    width:110px;
+    height:110px;
+    border-radius: 50%;
+    border:4px solid #dc3545;
+}
+
+.circle p{
+    font-size: 30px;
+    font-weight: 500;
+    color: #dc3545;
+}
+
+.timer{
+    font-size: 27px;
+}
+/*  end counter section */
+
+/* by amiraa */
+/*start styling for privacy page */
+.privacy-policy{
+    margin-top: 5rem;
+}
+.privacy-policy .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.privacy-policy img{
+    height: 365px;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.privacy-policy{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.privacy-policy h2{
+    color: #dc3545;
+    margin: 20px 0 12px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.privacy-policy p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: grey;
+}
+
+.privacy-policy h5{
+    font-size: 30px;
+    color:#EE0F48;
+}
+
+.privacy-policy ul{
+    list-style-type:square;
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: gray;
+}
+
+.privacy-policy ul li{
+    padding-bottom: 1rem;
+}
+
+.privacy-policy ul li a{
+    color: #EE0F48;
+}
+
+@media (max-width:768px){
+
+.privacy-policy img{
+    height: 250px;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.privacy-policy{
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+.privacy-policy .w-75{
+    width: 100% !important;
+}
+.privacy-policy h2{
+    color: #dc3545;
+    margin: 20px 0 12px 0;
+    font-size: 27px;
+    text-align: center;
+}
+
+.privacy-policy p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: grey;
+}
+
+.privacy-policy h5{
+    font-size: 25px;
+    color:#EE0F48;
+}
+
+.privacy-policy ul{
+    list-style-type:square;
+    padding: 2rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: gray;
+}
+
+.privacy-policy ul li{
+    padding-bottom: 1rem;
+}
+
+.privacy-policy ul li a{
+    color: #EE0F48;
+}
+}
+/*end styling for privacy page */
+/* by amiraaa */
+
+
+/*start about us by amira  */
+.aboutus{
+    margin-top: 5rem;
+}
+.aboutus .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus img{
+    height: 390px;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+/* -----------styling content-----------*/
+
+.aboutus{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.aboutus h2{
+    color: #dc3545;
+    margin: 20px 0 12px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.aboutus ul{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: grey;
+    list-style: square;
+    line-height: 2.00em;
+}
+
+@media (max-width:768px){
+
+.aboutus{
+    margin-top: 5rem;
+}
+
+.aboutus .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus img{
+    height: 300px;
+    width: 100%;
+    margin-top: 3rem;
+}
+.aboutus .w-75{
+    width: 100% !important;
+}
+.aboutus{
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+.aboutus h2{
+    color: #dc3545;
+    margin: 20px 0 12px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.aboutus ul{
+    margin-left: 1rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: grey;
+    list-style: square;
+    line-height: 1.80em;
+}
+}
+/*end about us by amira  */
+
+/*end styling for privacy page */
+/*start styling support by amira */
+.supportus{
+    margin-top: 5rem;
+}
+.supportus .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.supportus img{
+    height: 400px;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+/* -----------styling content-----------*/
+
+.supportus{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.supportus h2{
+    color: #dc3545;
+    margin: 20px 0 12px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.supportus ul{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: grey;
+    list-style: square;
+    line-height: 2.00em;
+}
+@media (max-width:768px){
+.supportus{
+    margin-top: 5rem;
+}
+.supportus .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.supportus img{
+    height: 300px;
+    width: 100%;
+    margin-top: 3rem;
+}
+.supportus .w-75{
+    width: 100% !important;
+}
+.supportus{
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+.supportus h2{
+    color: #dc3545;
+    margin: 20px 0 12px 0;
+    font-size: 30px;
+    text-align: center;
+}
+.supportus ul{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-left: 1rem;
+    color: grey;
+    list-style: square;
+    line-height: 1.80em;
+}}
+/* end styling support by amira */
