@@ -29,9 +29,9 @@
 
                     <li><span>The site has the full right to legally prosecute the violators of the site’s privacy.</span></li>
 
-                    <li><span>If you agree to this privacy and would like to help others and are able to donate [<a href="#"> read the terms of donation </a>]</span></li>
+                    <li><span>If you agree to this privacy and would like to help others and are able to donate [<a href="/donation"> read the terms of donation </a>]</span></li>
 
-                    <li><span>In the event that there is a person who needs blood, he will conduct a search on our website and will call you by phone to donate your blood to him [<a href="#"> read the benefits of donating </a>]</span></li>
+                    <li><span>In the event that there is a person who needs blood, he will conduct a search on our website and will call you by phone to donate your blood to him [<a href="/why"> read the benefits of donating </a>]</span></li>
 
                 </ul>
             </div>

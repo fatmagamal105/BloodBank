@@ -27,7 +27,7 @@
                 </div>
 
                 <div class="col-lg-5 col-md-7 mx-auto my-4">
-                    <input type="number" placeholder="Phone" name="phone" class="form-control" >
+                    <input type="number" placeholder="Phone" name="phone" class="form-control" required>
                 </div>
 
                 <div class=" col-lg-5 col-md-7 mx-auto my-4">
@@ -38,15 +38,15 @@
                 </div>
 
                 <div class=" col-lg-5 col-md-7 mx-auto my-4">
-                    <input type="text" placeholder="O+/O-/B+/B-/A+/A-/AB+/AB-" name="type" class="form-control" >
+                    <input type="text" placeholder="O+/O-/B+/B-/A+/A-/AB+/AB-" name="type" class="form-control" required>
                 </div>
 
                 <div class=" col-lg-5 col-md-7 mx-auto my-4">
-                    <input type="text" placeholder="Contact type/SMS/Calls/SMS+Calls" name="contact_type" class="form-control" >
+                    <input type="text" placeholder="Contact type/SMS/Calls/SMS+Calls" name="contact_type" class="form-control" required >
                 </div>
 
                 <div class=" col-lg-5 col-md-7 mx-auto my-4">
-                    <input type="text" placeholder="per24h/From 8am to 3pm/From 3pm to 11pm" name="contact_time" class="form-control">
+                    <input type="text" placeholder="per24h/From 8am to 3pm/From 3pm to 11pm" name="contact_time" class="form-control"  required>
                 </div>
                 <div class="col-lg-5 col-md-7 my-4 mx-auto but">
                     <button name="sign-up" type="submit">Register now</button>

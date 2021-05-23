@@ -13,9 +13,14 @@ class HomeController extends Controller
         return view('frontend.pages.home');
     }
 
+    public function searchPage()
+    {
+        return view('frontend.pages.search');
+    }
+
     public function search(Request $request)
     {
          $data = DonorModel::where('type', $request->input('type'))->get();
-         return view('frontend.pages.home', compact('data',$data));
+         return view('frontend.pages.search', compact('data',$data));
     }
 }

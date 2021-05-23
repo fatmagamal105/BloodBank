@@ -45,6 +45,8 @@ class LayoutController extends Controller
     {
         return view('frontend.pages.counter');
     }
+
+
 }
 
 

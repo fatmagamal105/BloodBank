@@ -35,6 +35,8 @@ Route::post('add-msg','ContactUsController@addSuggestion');
 //Home page
 Route::get('/','HomeController@home');
 Route::get('search','HomeController@search');
+//Route::get('search-page','HomeController@search');
+
 
 //Admin
 

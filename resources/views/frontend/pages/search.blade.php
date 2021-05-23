@@ -43,5 +43,37 @@
         </div>
     </div>
     <!--end form -->
+
+    <!-- start section search table -->
+    <table id="donors-table">
+        <tbody>
+        <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Governor</th>
+            <th>Phone</th>
+            <th>Blood type</th>
+            <th>Contact type</th>
+            <th>Contact time</th>
+        </tr>
+
+        @isset($data)
+            @foreach($data as $item)
+                <tr>
+                    <td>{{ $item['username'] }}</td>
+                    <td>{{ $item['email'] }}</td>
+                    <td>{{ $item['governor'] }}</td>
+                    <td><a href="tel:0774654909">{{ $item['phone'] }}</a></td>
+                    <td>{{ $item['type'] }}</td>
+                    <td>{{ $item['contact_type'] }}</td>
+                    <td>{{ $item['contact_time'] }}</td>
+                </tr>
+            @endforeach
+        @endisset
+        </tbody>
+    </table>
+
+    <div id="pagination-buttons"><div><button disabled="">«</button><button class="active">1</button><button>2</button><button>»</button></div><span>1/2</span></div>
+
     <!-- end section search table -->
 @endsection

@@ -10,13 +10,13 @@
         <div class="row">
             <div  class=" col-md-12 text-center about-us">
 
-                <p class="text-center m-4 ">
+                <h4 class="text-center m-4 ">
                     <span>Initially</span> sustains precious human life. Its presence and flow allow us
                     to seek the purpose of our existence and attain life’s milestones.
                     When we share blood, healing happens; individuals thrive; and families
                     remain whole. Giving blood enriches our life experience, casting aside
                     our differences to link the human race through a common, natural bond.
-                </p>
+                </h4>
             </div>
         </div>
     </div>
@@ -32,7 +32,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="about-me py-5">
-                        <h5> 1)	Coronavirus update</h5>
+                        <h4> 1)	Coronavirus update</h4>
                         <p class="pt-1 lead">
                             How we're working to respond to the challenges caused by
                             the coronavirus pandemic.The coronavirus (COVID-19) pandemic
@@ -40,7 +40,7 @@
                             considerable challenges to the blood donation.
                             <br>
                         </p>
-                        <h5> 2)	Announcement of a third COVID-19 vaccine </h5>
+                        <h4> 2)	Announcement of a third COVID-19 vaccine </h4>
                         <p class="pt-1 lead">
                             Announcement of a third COVID-19 vaccine being approved by the U.S. Food and Drug Administration,
                             we want the public to know that receiving the vaccine does not affect your eligibility to give blood.
