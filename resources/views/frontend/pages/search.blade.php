@@ -69,11 +69,12 @@
                     <td>{{ $item['contact_time'] }}</td>
                 </tr>
             @endforeach
-        @endisset
+
         </tbody>
     </table>
-
-    <div id="pagination-buttons"><div><button disabled="">«</button><button class="active">1</button><button>2</button><button>»</button></div><span>1/2</span></div>
-
+    <div id="pagination-buttons">
+            {{ $data->appends(Request::all())->links() }}
+        </div>
+    @endisset
     <!-- end section search table -->
 @endsection

@@ -20,7 +20,8 @@ class HomeController extends Controller
 
     public function search(Request $request)
     {
-         $data = DonorModel::where('type', $request->input('type'))->get();
-         return view('frontend.pages.search', compact('data',$data));
+         $data = DonorModel::where('type', $request->input('type'))->paginate(10);
+        return view('frontend.pages.search', compact('data',$data));
+
     }
 }

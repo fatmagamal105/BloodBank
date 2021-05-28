@@ -13,4 +13,12 @@ class DonorModel extends Model
         'username','email','phone', 'address', 'governor','contact_type','type',
         'contact_time'
     ];
+
+    public function run()
+    {
+        DonorModel::factory()
+            ->count(50)
+            ->hasPosts(1)
+            ->create();
+    }
 }

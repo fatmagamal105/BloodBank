@@ -34,7 +34,7 @@ class AdminController extends Controller
         }else{
 
             Session::put('msg','Incorrect Username and password');
-            return Redirect::to('/dashboard');
+            return Redirect::to('/admin');
         }
     }
 
